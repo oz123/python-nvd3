@@ -111,6 +111,16 @@ If you don’t like Github and Git you’re welcome to send regular patches.
 
 Bug tracker: http://github.com/areski/python-nvd3/issues
 
+If you make a pull request, make sure you add tests to your code. 
+To successfully run the test suite you need to run::
+
+        $ pip install -r test_requirements.txt
+
+After you added test to the `tests` directory, run the command::
+        
+        $ py.test 
+
+And check that your new feature does not break stuff!
 
 .. _license:
 
